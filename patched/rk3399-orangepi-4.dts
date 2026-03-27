@@ -23,6 +23,10 @@
 
 	aliases {
 		spi1 = &spi1;
+		ethernet0 = &gmac;
+		mmc0 = &sdio0;
+		mmc1 = &sdmmc;
+		mmc2 = &sdhci;
 	};
 
 	clkin_gmac: external-gmac-clock {
